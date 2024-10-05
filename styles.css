@@ -38,7 +38,7 @@ nav .nav-link:hover {
 
 /* Intro Section */
 section.bg-primary {
-  background-color: #fc4326 !important;
+  background-color: rgb(158, 153, 153) !important;
 }
 
 section.bg-primary h1 {
@@ -46,6 +46,7 @@ section.bg-primary h1 {
 }
 
 section.bg-primary p {
+  color: #302f2f;
   font-size: 1.2rem;
 }
 
