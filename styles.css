@@ -101,5 +101,38 @@ footer p {
 
 
 
+/* Always display the hamburger menu button */
+.navbar-toggler {
+  display: block;
+}
+
+/* Initially hide the nav-links (collapsed by default) */
+.collapse {
+  display: none;
+}
+
+/* When toggled (collapsed), show the nav-links */
+.collapse.show {
+  display:block;
+}
+
+/* Additional styling to hide the links and show on larger screens too */
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: block; /* Ensure hamburger shows even on large screens */
+  }
+
+  .navbar-collapse {
+    display: none; /* Hide links by default on large screens */
+  }
+
+  .navbar-collapse.show {
+    display: block;
+  }
+}
+
+
+
+
 
 
